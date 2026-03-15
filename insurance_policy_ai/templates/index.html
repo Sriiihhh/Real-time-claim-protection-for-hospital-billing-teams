@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>AI Insurance Policy Monitor</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+
+body{
+background:#f7f9fc;
+color:#1a1a1a;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo{
+font-size:22px;
+font-weight:600;
+color:#2563eb;
+}
+
+.nav-links a{
+text-decoration:none;
+margin-left:30px;
+color:#333;
+font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px;
+}
+
+.hero-text{
+max-width:600px;
+}
+
+.hero-text h1{
+font-size:52px;
+line-height:1.2;
+margin-bottom:20px;
+}
+
+.hero-text p{
+font-size:18px;
+color:#555;
+margin-bottom:35px;
+}
+
+/* BUTTONS */
+
+.btn{
+padding:14px 28px;
+border-radius:8px;
+border:none;
+font-size:16px;
+font-weight:500;
+cursor:pointer;
+transition:0.3s;
+}
+
+.primary{
+background:#2563eb;
+color:white;
+}
+
+.primary:hover{
+background:#1d4ed8;
+}
+
+.secondary{
+background:#e0e7ff;
+color:#2563eb;
+margin-left:15px;
+}
+
+.secondary:hover{
+background:#c7d2fe;
+}
+
+/* HERO CARD */
+
+.hero-card{
+background:white;
+padding:30px;
+border-radius:14px;
+box-shadow:0 10px 35px rgba(0,0,0,0.08);
+width:340px;
+}
+
+.hero-card h3{
+margin-bottom:15px;
+}
+
+.stat{
+display:flex;
+justify-content:space-between;
+margin:12px 0;
+}
+
+/* FEATURES */
+
+.features{
+padding:60px 80px;
+display:flex;
+gap:30px;
+}
+
+.feature{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 25px rgba(0,0,0,0.06);
+flex:1;
+}
+
+.feature h3{
+margin-bottom:10px;
+}
+
+.feature p{
+color:#666;
+}
+
+/* FOOTER */
+
+.footer{
+text-align:center;
+padding:40px;
+color:#777;
+font-size:14px;
+}
+
+</style>
+</head>
+
+
+
+<body>
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+
+<div class="logo">
+PolicyAI
+</div>
+
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/dashboard">Dashboard</a>
+<a href="/monitor">Check Updates</a>
+</div>
+
+</div>
+
+
+
+<!-- HERO -->
+
+<div class="hero">
+
+<div class="hero-text">
+
+<h1>
+AI Powered Insurance Policy Monitoring
+</h1>
+
+<p>
+Automatically detect healthcare insurance policy updates in real-time and
+track changes across multiple insurance providers.
+</p>
+
+<a href="/monitor">
+<button class="btn primary">Check Policy Updates</button>
+</a>
+
+<a href="/dashboard">
+<button class="btn secondary">View Dashboard</button>
+</a>
+
+</div>
+
+
+
+<div class="hero-card">
+
+<h3>System Overview</h3>
+
+<div class="stat">
+<span>Total Policies</span>
+<span>128</span>
+</div>
+
+<div class="stat">
+<span>Changes Detected</span>
+<span>14</span>
+</div>
+
+<div class="stat">
+<span>Companies Monitored</span>
+<span>5</span>
+</div>
+
+<div class="stat">
+<span>Status</span>
+<span style="color:green;">Active</span>
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- FEATURES -->
+
+<div class="features">
+
+<div class="feature">
+<h3>Real-Time Monitoring</h3>
+<p>
+Continuously track policy changes from insurance providers
+and notify hospitals instantly.
+</p>
+</div>
+
+<div class="feature">
+<h3>AI Change Detection</h3>
+<p>
+Automatically identify important policy updates and classify
+changes using intelligent monitoring algorithms.
+</p>
+</div>
+
+<div class="feature">
+<h3>Analytics Dashboard</h3>
+<p>
+Visualize policy updates, company statistics and monitoring
+activity in an intuitive dashboard.
+</p>
+</div>
+
+</div>
+
+
+
+<div class="footer">
+AI Insurance Policy Monitoring System • Built with Flask
+</div>
+
+
+</body>
+</html>
